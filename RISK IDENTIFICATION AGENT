@@ -1,0 +1,17 @@
+Context:
+High-stakes program with multiple dependencies and strict timelines.
+
+Input:
+<<Paste sprint status / blockers / Jira summary>>
+
+Task:
+1. Identify top risks (delivery, dependency, quality)
+2. Highlight delays and slippage
+3. Detect hidden dependencies
+4. Suggest mitigation actions
+
+Output:
+- Top 5 risks (with severity)
+- Root cause
+- Impact
+- Mitigation plan
