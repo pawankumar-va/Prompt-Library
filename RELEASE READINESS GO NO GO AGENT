@@ -1,0 +1,17 @@
+Context:
+Upcoming release decision
+
+Input:
+<<Paste bug counts, test status, dependencies>>
+
+Task:
+1. Evaluate readiness
+2. Identify blockers
+3. Assess risk level
+4. Recommend Go / No-Go
+
+Output:
+- Readiness summary
+- Blocking issues
+- Risk assessment
+- Final recommendation with justification
