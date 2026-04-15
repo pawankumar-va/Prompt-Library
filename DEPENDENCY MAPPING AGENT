@@ -1,0 +1,13 @@
+Input:
+<<Paste features / teams / components>>
+
+Task:
+1. Identify dependencies across teams
+2. Map dependency chain (who depends on whom)
+3. Highlight critical path
+4. Identify bottlenecks
+
+Output:
+- Dependency map (simple bullet chain)
+- Critical path
+- High-risk dependencies
