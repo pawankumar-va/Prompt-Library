@@ -1,0 +1,19 @@
+Context:
+Program: [Your Program Name]
+Sprint Duration: 2 weeks
+Teams: [List teams]
+
+Input:
+<<Paste backlog / Jira epics>>
+
+Task:
+1. Break into sprint plan
+2. Identify dependencies across teams
+3. Highlight sequencing constraints
+4. Suggest optimal execution order
+
+Output:
+- Sprint-wise breakdown
+- Dependencies
+- Risks in sequencing
+- Recommendations
