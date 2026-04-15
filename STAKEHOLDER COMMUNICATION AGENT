@@ -1,0 +1,18 @@
+ontext:
+You need to communicate a tough situation.
+
+Input:
+<<Describe issue>>
+
+Task:
+1. Draft message for leadership
+2. Be transparent but controlled
+3. Highlight plan forward
+
+Tone:
+- Confident
+- Clear
+- No panic
+
+Output:
+- Final message (email/Slack ready)
