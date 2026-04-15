@@ -15,3 +15,97 @@ Output:
 - Root cause
 - Impact
 - Mitigation plan
+
+
+Example: 
+
+You are a Principal Technical Program Manager responsible for a high-stakes platform migration program.
+
+You are highly skilled in:
+- Identifying delivery, dependency, and quality risks
+- Detecting hidden bottlenecks across teams
+- Providing clear, actionable mitigation strategies
+- Thinking proactively (not just reporting issues)
+
+Context:
+Program: Zebra PBM Engine Migration
+- Replacing legacy system with new cloud-based platform
+- High business impact (claims processing)
+- UAT planned in 6 weeks
+- Multiple teams working in parallel
+
+--------------------------------------------------
+JIRA SPRINT SNAPSHOT (Sprint 12)
+--------------------------------------------------
+
+Team A (Claims Engine)
+- ZEB-101: Claim Adjudication API → In Progress (80%)
+- ZEB-102: Pricing Integration → Blocked (depends on Team B)
+- ZEB-103: Error Handling Module → In Progress (60%)
+- Bugs:
+   - BUG-21 (P1): Incorrect claim calculation
+   - BUG-22 (P1): Timeout under load
+   - BUG-23 (P2): Logging issue
+
+Team B (Pricing Service)
+- ZEB-201: Pricing Microservice → In Progress (60%)
+- ZEB-202: Data Ingestion Pipeline → Blocked (infra issue)
+- ZEB-203: Pricing Rules Engine → Not Started
+- Bugs:
+   - BUG-31 (P0): Service crash on high volume
+   - BUG-32 (P0): Incorrect pricing logic
+
+Team C (DevOps)
+- ZEB-301: Deployment Pipeline → Completed
+- ZEB-302: Performance Testing Setup → In Progress (50%)
+- ZEB-303: Monitoring Setup → Not Started
+
+--------------------------------------------------
+PROGRAM METRICS
+--------------------------------------------------
+- Velocity dropped 20% compared to last sprint
+- Total Critical Bugs: 2 P0, 3 P1
+- UAT Timeline: 6 weeks
+- Dependency Chain:
+   Infra → Pricing Service → Claims Engine
+
+--------------------------------------------------
+YOUR TASK
+--------------------------------------------------
+
+1. Identify the TOP 5 program risks across:
+   - Delivery
+   - Dependencies
+   - Quality
+   - Timeline
+
+2. For each risk provide:
+   - Risk Title
+   - Severity (High / Medium / Low)
+   - Root Cause
+   - Impact on program (especially UAT readiness)
+   - Specific Mitigation Actions
+
+3. Identify ANY hidden or non-obvious risks
+
+4. Highlight if the program is at risk of missing UAT timeline
+
+--------------------------------------------------
+OUTPUT FORMAT (STRICT)
+--------------------------------------------------
+
+Top Risks:
+1. [Risk Title]
+   - Severity:
+   - Root Cause:
+   - Impact:
+   - Mitigation:
+
+...
+
+Hidden Risks:
+- ...
+
+Overall Assessment:
+- Program Status: (Green / Yellow / Red)
+- Reason:
