@@ -1,0 +1,23 @@
+Context:
+Audience: VP / Leadership
+Program: [Program Name]
+
+Input:
+<<Paste sprint progress + risks>>
+
+Task:
+1. Summarize progress in 4–5 bullets
+2. Highlight key risks
+3. Call out dependencies needing leadership attention
+4. Provide overall status (Green/Yellow/Red with reason)
+
+Tone:
+- Crisp
+- Business-focused
+- No technical jargon unless needed
+
+Output:
+- Progress
+- Risks
+- Dependencies
+- Overall status
